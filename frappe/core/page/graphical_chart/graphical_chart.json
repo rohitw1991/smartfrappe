@@ -1,0 +1,22 @@
+{
+ "content": null, 
+ "creation": "2014-09-11 08:58:12.366600", 
+ "docstatus": 0, 
+ "doctype": "Page", 
+ "icon": "icon-magic", 
+ "modified": "2014-09-11 08:58:12.366600", 
+ "modified_by": "Administrator", 
+ "module": "Core", 
+ "name": "graphical-chart", 
+ "owner": "Administrator", 
+ "page_name": "graphical chart", 
+ "roles": [
+  {
+   "role": "All"
+  }
+ ], 
+ "script": null, 
+ "standard": "Yes", 
+ "style": null, 
+ "title": "Charts"
+}

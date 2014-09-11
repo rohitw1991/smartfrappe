@@ -76,6 +76,94 @@
    "permlevel": 0
   }, 
   {
+   "fieldname": "add_validity", 
+   "fieldtype": "Link", 
+   "label": "Add validity", 
+   "options": "User Validity", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "validity_start_date", 
+   "fieldtype": "Date", 
+   "hidden": 1, 
+   "label": "Validity Start Date", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "validity_end_date", 
+   "fieldtype": "Date", 
+   "hidden": 1, 
+   "label": "Validity End Date", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "no_of_users", 
+   "fieldtype": "Data", 
+   "hidden": 1, 
+   "label": "No of users", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "validity", 
+   "fieldtype": "Data", 
+   "hidden": 1, 
+   "label": "validity", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "country", 
+   "fieldtype": "Link", 
+   "hidden": 1, 
+   "label": "Country", 
+   "options": "Country", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "email_id_admin", 
+   "fieldtype": "Data", 
+   "hidden": 1, 
+   "label": "Email id admin", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "sites", 
+   "fieldtype": "Text", 
+   "hidden": 1, 
+   "label": "sites", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "default": "false", 
+   "fieldname": "flag", 
+   "fieldtype": "Data", 
+   "hidden": 1, 
+   "label": "flag", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "disable_ticker", 
+   "fieldtype": "Check", 
+   "label": "Disable Ticker", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
+   "fieldname": "ticker", 
+   "fieldtype": "Text", 
+   "label": "Ticker", 
+   "permlevel": 0, 
+   "precision": ""
+  }, 
+  {
    "fieldname": "column_break0", 
    "fieldtype": "Column Break", 
    "oldfieldtype": "Column Break", 
@@ -90,6 +178,13 @@
    "label": "Language", 
    "options": "Loading...", 
    "permlevel": 0
+  }, 
+  {
+   "fieldname": "master_site_url", 
+   "fieldtype": "Data", 
+   "label": "Master Site URL", 
+   "permlevel": 0, 
+   "precision": ""
   }, 
   {
    "description": "Default is system timezone", 
@@ -462,7 +557,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 5, 
- "modified": "2014-09-08 06:07:20.157915", 
+ "modified": "2014-09-11 08:45:01.933864", 
  "modified_by": "Administrator", 
  "module": "Core", 
  "name": "User", 
