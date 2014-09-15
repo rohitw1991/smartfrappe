@@ -86,7 +86,7 @@
   {
    "fieldname": "validity_start_date", 
    "fieldtype": "Date", 
-   "hidden": 1, 
+   "hidden": 0, 
    "label": "Validity Start Date", 
    "permlevel": 0, 
    "precision": ""
@@ -94,7 +94,7 @@
   {
    "fieldname": "validity_end_date", 
    "fieldtype": "Date", 
-   "hidden": 1, 
+   "hidden": 0, 
    "label": "Validity End Date", 
    "permlevel": 0, 
    "precision": ""
@@ -102,7 +102,7 @@
   {
    "fieldname": "no_of_users", 
    "fieldtype": "Data", 
-   "hidden": 1, 
+   "hidden": 0, 
    "label": "No of users", 
    "permlevel": 0, 
    "precision": ""
@@ -110,7 +110,7 @@
   {
    "fieldname": "validity", 
    "fieldtype": "Data", 
-   "hidden": 1, 
+   "hidden": 0, 
    "label": "validity", 
    "permlevel": 0, 
    "precision": ""
@@ -557,7 +557,7 @@
  "issingle": 0, 
  "istable": 0, 
  "max_attachments": 5, 
- "modified": "2014-09-11 08:45:01.933864", 
+ "modified": "2014-09-13 13:06:16.174395", 
  "modified_by": "Administrator", 
  "module": "Core", 
  "name": "User", 
